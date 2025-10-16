@@ -1,64 +1,53 @@
 # To-Do App
 
-A simple and efficient to-do list application built with React, TypeScript, and Supabase.
+A simple and efficient to-do list application built with **React**, **TypeScript**, **Vite**, and **Supabase**.  
+This project was created as part of a web development task submission.
 
-## Features
+---
 
-- User authentication (email/password)
-- Create, read, update, and delete tasks
-- Set deadlines for tasks
-- View today's tasks separately
-- Dark theme UI
+# Problem Statement
 
-## Tech Stack
+Build a full-stack **To-Do Application** that allows users to:
 
-- **Frontend**: React, TypeScript, Vite
-- **UI Components**: shadcn-ui, Tailwind CSS
-- **Backend**: Supabase
-- **State Management**: TanStack Query
+- Sign up and log in using email/password authentication.
+- Create, read, update, and delete (CRUD) their tasks.
+- Set deadlines for tasks.
+- View tasks scheduled for **today**.
+- Experience a responsive, dark-themed UI.
 
-## Getting Started
+---
 
-### Prerequisites
+## 🛠️ Tech Stack Used
 
+| Category | Technologies |
+|-----------|---------------|
+| **Frontend** | React, TypeScript, Vite |
+| **Backend / Database** | Supabase |
+| **UI / Styling** | shadcn/ui, Tailwind CSS |
+| **State Management** | TanStack Query |
+| **Deployment** | Vercel |
+
+---
+
+## Steps to Run the Project Locally
+
+## Prerequisites
 - Node.js (v18 or higher)
 - npm or yarn
 
+
+## Screenshots
+
+### Home screen
+![Home screen](./screenshots/to-do%20pic%203.png)
+![Task](./screenshots/to-do%20pic%204.png)
+![TaskAssigned](./screenshots/to-do%20pic%205.png)
+
+### Login
+![Login page with error message](./screenshots/to-do%20pic%202.png)
+
+
 ### Installation
 
-1. Clone the repository
-```bash
-git clone <your-repo-url>
-cd <project-folder>
-```
-
-2. Install dependencies
-```bash
-npm install
-```
-
-3. Set up environment variables
-
-Create a `.env` file in the root directory with your Supabase credentials:
-```
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_PUBLISHABLE_KEY=your_supabase_anon_key
-VITE_SUPABASE_PROJECT_ID=your_project_id
-```
-
-4. Run the development server
-```bash
-npm run dev
-```
-
-The app will be available at `http://localhost:8080`
-
-## Building for Production
-
-```bash
-npm run build
-```
-
-## License
-
-MIT
+1. **deployment link**
+   https://to-do-app-delta-vert.vercel.app/
