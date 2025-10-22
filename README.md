@@ -1,11 +1,11 @@
-# To-Do App
+# 📝 To-Do App
 
 A simple and efficient to-do list application built with **React**, **TypeScript**, **Vite**, and **Supabase**.  
 This project was created as part of a web development task submission.
 
 ---
 
-# Problem Statement
+## 🧩 Problem Statement
 
 Build a full-stack **To-Do Application** that allows users to:
 
@@ -29,51 +29,51 @@ Build a full-stack **To-Do Application** that allows users to:
 
 ---
 
-## 🚀 Steps to Run the Project Locally
+## ⚙️ Steps to Run the Project Locally
 
-### 1.Prerequisites
+### Prerequisites
 - Node.js (v18 or higher)
-- npm or yarn installed on your system
+- npm or yarn
 
----
+### Installation
 
-### 2. Clone the Repository
-```bash
-git clone https://github.com/AstaStaria-dev/To-Do-app.git
-cd To-Do-app
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/AstaStaria-dev/To-Do-app.git
+   cd To-Do-app
 
-### 3. Install dependencies
+Install Dependencies
 npm install
-# or
-yarn install
 
-### 4. Set up environment variables
+
+Set Up Environment Variables
+
 VITE_SUPABASE_PROJECT_ID="jlouzhbkrvrmiobukrgg"
 VITE_SUPABASE_PUBLISHABLE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Impsb3V6aGJrcnZybWlvYnVrcmdnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjAxMzI1MjEsImV4cCI6MjA3NTcwODUyMX0.pkfUr2LMqw4WjLr1PpcejxstVtEWXKAa7tGCwgrxh1Y"
 VITE_SUPABASE_URL="https://jlouzhbkrvrmiobukrgg.supabase.co"
 
-### 5. Start the development server
+
+Run the Development Server
 npm run dev
-# or
-yarn dev
+
+
+Deployment Link:
+Live Demo: https://to-do-app-delta-vert.vercel.app/
+The app is deployed on Vercel, automatically built and deployed from this GitHub repository.
+
+
+Screenshots
+
+Here’s a quick look at the key pages of the To-Do App:
+
+### Login Page
+![Login Page](./screenshots/to-do%20pic%201.png)
+
+### Home Page
+![Home Page](./screenshots/to-do%20pic%203.png)
+
+### Add Task Page
+![Add Task Page](./screenshots/to-do%20pic%204.png)
 
 
 
-
-## Screenshots
-
-### Login
-![Login page with error message](./screenshots/to-do%20pic%202.png)
-
-### Home screen
-![Home screen](./screenshots/to-do%20pic%203.png)
-![Task](./screenshots/to-do%20pic%204.png)
-![TaskAssigned](./screenshots/to-do%20pic%205.png)
-
-
-
-
-### Vercel 
-
-1. **deployment link**
-   https://to-do-app-delta-vert.vercel.app/
